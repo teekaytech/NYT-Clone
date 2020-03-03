@@ -1,0 +1,39 @@
+
+nav{
+    widows: 100%;
+}
+
+.left_menu{
+    float: left;
+}
+
+.right_menu{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+section{
+    width: 90%;
+    min-height: 800px;
+    margin: auto;
+    background-color: aqua;
+}
+
+aside{
+    width: 20%;
+    margin-right: 1em;
+    float: right;
+    background-color: red;
+    min-height: 500px;
+}
+
+.content {
+    width: 60%;
+    margin-right: 2em;
+    float: right;
+    background-color: blue;
+    min-height: 500px;
+}
