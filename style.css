@@ -248,3 +248,95 @@ span.socials {
     padding: 40px;
     background-color: indianred;
 }
+/* .content {
+    width: 60%;
+    margin-right: 2em;
+    float: right;
+    background-color: blue;
+    min-height: 500px;
+} */
+
+
+.other-articles {
+    width: 90%;
+    
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top : 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 45px;
+
+}
+
+.more-in {
+    width: 70%;
+    float: left;
+    
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.more-header {
+    font-size: large;
+    font-weight: 800;
+    padding-top: 17px;    
+}
+
+/*
+.m-articles {
+    display: flex;
+    flex-wrap: wrap; 
+    
+} 
+*/
+
+.m-articles {
+    padding-top:20px;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+} 
+
+.m-article {
+    width:300px;
+    height: 200px;
+    display: flex;
+    margin-right: 15px ;
+    flex-direction: column;
+}
+
+.m-caption {
+    font-size: 0.625rem;
+    text-transform: none;
+    text-align: right;
+    margin: 3px 0px 0px;
+    color: rgb(153, 153, 153);
+    
+    line-height: 1.23em;
+}
+
+.m-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 22px;
+    margin-bottom: 5px;
+    color: rgb(18, 18, 18)
+}
+
+.m-date {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: rgb(153, 153, 153);
+}
+
+.most-pop {
+    width: 15%;
+    margin-left: 20px ;
+    float: left;
+    border-top: 1px solid rgb(0, 0, 0);
+    min-height: 300px;
+}
