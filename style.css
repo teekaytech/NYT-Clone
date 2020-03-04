@@ -22,7 +22,8 @@ nav  img {
     vertical-align: middle;
 }
 
-nav  button {
+nav  button, 
+button {
     background-color: steelblue;
     min-height : 30px;
     color: white;
@@ -34,6 +35,7 @@ nav  button {
     font-weight: 700;
     border-color: transparent;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 nav a {
@@ -84,7 +86,8 @@ a:hover {
     display: none;
 }
 
-.container {
+.container,
+.container-two {
     margin: 0 130px 0 130px;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -128,15 +131,13 @@ img {
 }
 
 .other-content, 
-.content-middle {
+.content-middle,
+.mid-content-one,
+.mid-content-two {
     font-size: 18px;
-    margin: 50px 0 10px 0;
+    margin: 20px 0 10px 0;
     padding: 0 20px 0 20px;
 }
-
-/* .side-left { */
-    /* background-color: khaki; */
-/* } */
 
 .date-social {
     display: flex;
@@ -154,10 +155,6 @@ img {
     padding: 20px;
     text-align: center;
 }
-
-/* .more-articles span { */
-    
-/* } */
 
 .side-right {
     align-self: center;
@@ -182,10 +179,71 @@ hr {
     color: lightgrey;
     margin-bottom: 15px;
 }
-/* .content {
-    width: 60%;
-    margin-right: 2em;
-    float: right;
-    background-color: blue;
-    min-height: 500px;
-} */
+
+.item {
+    padding: 20px;
+    border: 1px solid #000;
+    /* background-color: lightblue; */
+}
+
+.container-two {
+    grid-auto-rows: minmax(auto);
+}
+
+.mid-content-one {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.container-two > .content-image {
+    grid-row: 2;
+}
+
+.mid-content-two {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.content-image > hr {
+    width: 10%;
+    text-align: start;
+    margin-left: 0px;
+    text-align: left;
+    color: black;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+.content-end {
+    position: relative;
+    padding-top: 20px;
+    height: 70px;
+}
+
+div > .content-footer {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+
+.content-end-button {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+
+span.socials {
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+}
+
+.grid-items {
+    padding: 40px;
+    background-color: indianred;
+}
