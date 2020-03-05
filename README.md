@@ -40,8 +40,8 @@ We built our own page in a .html text file and opened it in our browser to check
  
  :bust_in_silhouette: **Author 2**
  * Github: https://github.com/karthi07
- * Twitter: 
- * LinkedIn: 
+ * Twitter: https://twitter.com/itkarthi02
+ * LinkedIn: https://www.linkedin.com/in/karthickvenkadesan/
 
 ## Contributing
 Contributions, issues and feature requests are welcome!

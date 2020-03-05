@@ -1,11 +1,11 @@
-.more-articles, 
-div > .content-footer, 
+.more-articles,
+div > .content-footer,
 .other-articles {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.m-text, 
-.pop-items, 
+.m-text,
+.pop-items,
 .content-one {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -13,7 +13,7 @@ div > .content-footer,
 nav {
   widows: 100%;
   text-align: center;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .logo_text {
@@ -21,20 +21,20 @@ nav {
   text-transform: capitalize;
 }
 
-nav  img {
+nav img {
   height: 40px;
   width: 200px;
   vertical-align: middle;
 }
 
-.left_menu > img { 
+.left_menu > img {
   height: 16px;
   width: 16px;
   padding: 8px;
   vertical-align: middle;
 }
 
-nav  button, 
+nav button,
 button {
   background-color: steelblue;
   min-height : 30px;
@@ -167,8 +167,8 @@ img {
 }
 
 .content-one,
-.content-two, 
-.content-three, 
+.content-two,
+.content-three,
 .content-four,
 .content-five {
   font-size: 18px;
@@ -232,8 +232,7 @@ hr {
 
 .content-image > hr {
   width: 10%;
-  text-align: start;
-  margin-left: 0px;
+  margin-left: 0;
   text-align: left;
   color: black;
 }
@@ -257,27 +256,27 @@ div > .content-footer {
 .content-footer-vid {
   font-size: small;
   color: grey;
-  text-align:right;
+  text-align: right;
 }
 
 .content-end-button {
   position: absolute;
   padding: 10px 50px;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   margin-top: 20px;
   vertical-align: bottom;
 }
 
 .comments-end-icons {
-  padding-top: 30px
+  padding-top: 30px;
 }
 
 span.socials {
   text-align: right;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   width: 50%;
 }
 
@@ -358,15 +357,15 @@ article > .content-footer {
 }
 
 article > .m-date {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
 }
 
 .foot-links {
-  width : 90%;
-  margin : auto;
+  width: 90%;
+  margin: auto;
   text-align: left;
   min-width: 600px;
   min-height: 200px;
