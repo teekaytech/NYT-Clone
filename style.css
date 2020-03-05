@@ -104,6 +104,15 @@ a:hover {
 #nav2 {
     display: none;
 }
+.fa > img {
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+}
+
 
 .container {
     margin: 0 130px 0 130px;
@@ -238,7 +247,7 @@ iframe {
 .content-end {
     position: relative;
     padding-top: 20px;
-    height: 70px;
+    height: 100px;
 }
 
 div > .content-footer {
@@ -252,6 +261,12 @@ div > .content-footer {
     padding: 10px 50px;
     bottom: 0px;
     left: 0px;
+    margin-top:20px;
+    vertical-align: bottom;
+}
+
+.comments-end-icons{
+    padding-top:30px
 }
 
 span.socials {
@@ -506,8 +521,11 @@ footer > div {
 
 .inflation-img .items {
     position: absolute;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-right: 5px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;    
 }
 
 .itm1 {
@@ -558,7 +576,10 @@ footer > div {
     width: 228px;
 }
 
-.items .item-title {
+.item-title {
     font-weight: bold;
     padding-right: 10px;
+}
+.items {
+
 }
