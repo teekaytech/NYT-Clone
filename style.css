@@ -256,6 +256,12 @@ div > .content-footer {
     text-align: left;
 }
 
+.content-footer-vid {
+    font-size: small;
+    color: grey;
+    text-align:right;
+}
+
 .content-end-button {
     position: absolute;
     padding: 10px 50px;
