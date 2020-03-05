@@ -1,4 +1,4 @@
-# NYT-Clone
+# New York Times - Clone
 
 This is a clone application of New York Times.
 <br>
