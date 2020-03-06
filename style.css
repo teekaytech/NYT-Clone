@@ -488,7 +488,7 @@ footer {
   text-align: center;
 }
 
-footer > a {
+footer a {
   color: #666;
   white-space: nowrap;
   font-size: small;
