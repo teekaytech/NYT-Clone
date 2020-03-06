@@ -106,8 +106,6 @@ a:hover {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   text-decoration: none;
   text-transform: capitalize;
-  width: 150px;
-  font-size: 14px;
   font-weight: 700;
   height: 25px;
   line-height: 15px;
@@ -195,7 +193,7 @@ h1 {
   grid-column: 2;
   font-style: italic;
   font-size: large;
-  padding-top: 80px;
+  padding: 80px 0 10px 50px;
 }
 
 .date-social {
@@ -484,18 +482,18 @@ article > .m-date {
 
 footer {
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
   border-top: #e2e2e2 solid 1px;
-  padding: 10px 20px 30px 50px;
+  padding: 10px 0 30px 0;
+  text-align: center;
 }
 
-footer > div {
+footer > a {
   color: #666;
   white-space: nowrap;
   font-size: small;
   padding-left: 8px;
   display: inline-block;
-  text-align: center;
 }
 
 .inflation-img {
