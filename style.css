@@ -86,7 +86,7 @@ nav a:hover {
   margin-right: 1.5em;
 }
 
-.clear {
+.nav1::after {
   clear: both;
 }
 
@@ -460,11 +460,6 @@ article > .m-date {
   color:black;
 }
 
-#subs {
-  padding-left: 10px;
-  border-left: 1px solid #e2e2e2;
-}
-
 .subscribe-bold a {
   color: #000;
   display: inline-block;
@@ -486,11 +481,10 @@ article > .m-date {
   vertical-align: middle;   
 }
 
-#subscribe-last {
+.subscribe-last {
   list-style: none;
   margin: 0;
-  padding: 0;
-  padding-top: 15px;
+  padding-top: 15px !important; 
   border-top: #e2e2e2 solid 1px;
 }
 
