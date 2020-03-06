@@ -61,6 +61,14 @@ strong a {
   color: black;
 }
 
+footer a {
+  color: #666;
+  white-space: nowrap;
+  font-size: small;
+  padding-left: 8px;
+  display: inline-block;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -486,14 +494,6 @@ footer {
   border-top: #e2e2e2 solid 1px;
   padding: 10px 0 80px 0;
   text-align: center;
-}
-
-footer a {
-  color: #666;
-  white-space: nowrap;
-  font-size: small;
-  padding-left: 8px;
-  display: inline-block;
 }
 
 .inflation-img {
