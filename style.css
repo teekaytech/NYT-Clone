@@ -1,5 +1,4 @@
 .more-articles,
-div > .content-footer,
 .other-articles {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -272,6 +271,7 @@ iframe {
   color: grey;
   margin: 5px 200px 50 0;
   font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 div > .content-footer {
