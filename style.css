@@ -21,6 +21,10 @@ nav {
   text-transform: capitalize;
 }
 
+img {
+  width: 100%;
+}
+
 nav img {
   height: 40px;
   width: 200px;
@@ -34,8 +38,8 @@ nav img {
   vertical-align: middle;
 }
 
-nav button,
-button {
+button,
+nav button {
   background-color: steelblue;
   min-height: 30px;
   color: white;
@@ -48,6 +52,18 @@ button {
   border-color: transparent;
   border-radius: 4px;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .nav1 a {
@@ -68,6 +84,35 @@ button {
   top: 0;
   padding-top: 5px;
   width: 100%;
+  z-index: 1;
+}
+
+.f-link a {
+  display: inline-block;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 13px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  color: black;
+}
+
+.subscribe-bold a {
+  color: #000;
+  display: inline-block;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
 }
 
 nav a:hover {
@@ -90,18 +135,6 @@ nav a:hover {
   clear: both;
 }
 
-a {
-  text-decoration: none;
-}
-
-strong a {
-  color: black;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 .fa > img {
   background-color: #eee;
   border: 1px #eee solid;
@@ -120,13 +153,6 @@ a:hover {
 
 h1 {
   margin: 0;
-}
-
-.content-one {
-  grid-row: 1;
-  grid-column: 2;
-  font-style: italic;
-  font-size: large;
 }
 
 .content-two {
@@ -151,19 +177,8 @@ h1 {
   padding: 0 0 0 30px;
 }
 
-.content-footer {
-  display: block;
-  color: grey;
-  margin: 5px 200px 50 0;
-  font-size: medium;
-}
-
 .content-footer span {
   font-size: small;
-}
-
-img {
-  width: 100%;
 }
 
 .content-one,
@@ -177,13 +192,17 @@ img {
 }
 
 .content-one {
+  grid-row: 1;
+  grid-column: 2;
+  font-style: italic;
+  font-size: large;
   padding-top: 80px;
 }
 
 .date-social {
   display: flex;
   justify-content: space-between;
-  padding: 30px 10px 50px 0;
+  padding: 30px 10px 10px 0;
 }
 
 .content-middle {
@@ -242,9 +261,17 @@ iframe {
 }
 
 .content-end {
-  position: relative;
+  display: flex;
   padding-top: 20px;
-  height: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-footer {
+  display: block;
+  color: grey;
+  margin: 5px 200px 50 0;
+  font-size: medium;
 }
 
 div > .content-footer {
@@ -260,10 +287,8 @@ div > .content-footer {
 }
 
 .content-end-button {
-  position: absolute;
   padding: 10px 50px;
-  bottom: 0;
-  left: 0;
+  margin-right: 150px;
   margin-top: 20px;
   vertical-align: bottom;
 }
@@ -274,9 +299,9 @@ div > .content-footer {
 
 span.socials {
   text-align: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* right: 0; */
   width: 50%;
 }
 
@@ -446,34 +471,6 @@ article > .m-date {
   vertical-align: baseline;
 }
 
-.f-link a {
-  display: inline-block;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 13px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 16px;
-  color: black;
-}
-
-.subscribe-bold a {
-  color: #000;
-  display: inline-block;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
-  text-decoration: none;
-  text-transform: capitalize;
-  width: 150px;
-  font-size: 14px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  padding-bottom: 0;
-}
-
 .subscribe-bold img {
   width: 15px;
   height: 15px;
@@ -568,4 +565,8 @@ footer > div {
 .item-title {
   font-weight: bold;
   padding-right: 10px;
+}
+
+.clear {
+  clear: both;
 }
