@@ -13,7 +13,7 @@ div > .content-footer,
 nav {
   widows: 100%;
   text-align: center;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .logo_text {
@@ -37,7 +37,7 @@ nav img {
 nav button,
 button {
   background-color: steelblue;
-  min-height : 30px;
+  min-height: 30px;
   color: white;
   align-items: center;
   padding: 11px 12px 8px 12px;
@@ -65,7 +65,7 @@ button {
 .nav1 {
   background-color: white;
   position: fixed;
-  top: 0px;
+  top: 0;
   padding-top: 5px;
   width: 100%;
 }
@@ -80,7 +80,7 @@ nav a:hover {
   margin-left: 1.5em;
 }
 
-.right_menu{
+.right_menu {
   float: right;
   text-align: center;
   margin-right: 1.5em;
@@ -154,7 +154,7 @@ h1 {
 .content-footer {
   display: block;
   color: grey;
-  margin: 5px 200px 50 0px;
+  margin: 5px 200px 50 0;
   font-size: medium;
 }
 
@@ -384,10 +384,10 @@ article > .m-date {
   float: left;
 }
 
-.f-text { 
+.f-text {
   float: right;
   color: #567b95;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 11px;
   vertical-align: baseline;
   font-weight: 400;
@@ -399,9 +399,9 @@ article > .m-date {
 }
 
 .foot-links img {
-  margin-top : 5px;
+  margin-top: 5px;
   height: 40px;
-  width: 200px;   
+  width: 200px;
   vertical-align: top;
 }
 
@@ -413,11 +413,11 @@ article > .m-date {
 }
 
 .f-link {
-  flex : 1;
+  flex: 1;
   color: #333;
   font-size: 13px;
   font-weight: 500;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   line-height: 15px;
   margin: 0;
   width: 150px;
@@ -427,7 +427,7 @@ article > .m-date {
   color: #333;
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   height: 25px;
   line-height: 15px;
   margin: 0;
@@ -448,7 +448,7 @@ article > .m-date {
 
 .f-link a {
   display: inline-block;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: capitalize;
@@ -457,13 +457,13 @@ article > .m-date {
   font-weight: 500;
   height: 23px;
   line-height: 16px;
-  color:black;
+  color: black;
 }
 
 .subscribe-bold a {
   color: #000;
   display: inline-block;
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   text-decoration: none;
   text-transform: capitalize;
   width: 150px;
@@ -478,27 +478,27 @@ article > .m-date {
   width: 15px;
   height: 15px;
   margin-top: 0;
-  vertical-align: middle;   
+  vertical-align: middle;
 }
 
 .subscribe-last {
   list-style: none;
   margin: 0;
-  padding-top: 15px !important; 
+  padding-top: 15px !important;
   border-top: #e2e2e2 solid 1px;
 }
 
-footer{
+footer {
   width: 90%;
-  margin:auto;
+  margin: auto;
   border-top: #e2e2e2 solid 1px;
-  padding : 10px 20px 30px 50px;
+  padding: 10px 20px 30px 50px;
 }
 
 footer > div {
   color: #666;
   white-space: nowrap;
-  font-size :small;
+  font-size: small;
   padding-left: 8px;
   display: inline-block;
   text-align: center;
@@ -510,11 +510,11 @@ footer > div {
 
 .inflation-img .items {
   position: absolute;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 12px;
   line-height: 17px;
   font-weight: 300;
-  color: #000;  
+  color: #000;
 }
 
 .itm1 {
@@ -531,7 +531,7 @@ footer > div {
 
 .itm3 {
   top: 24.8264%;
-  left: 51.0800%;
+  left: 51.08%;
   width: 228px;
 }
 
@@ -555,7 +555,7 @@ footer > div {
 
 .itm7 {
   top: 73.4375%;
-  left: 51.0800%;
+  left: 51.08%;
   width: 228px;
 }
 
