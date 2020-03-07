@@ -62,6 +62,10 @@ a:visited {
   color: #326891;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 strong a {
   color: black;
 }
@@ -72,10 +76,6 @@ footer a {
   font-size: small;
   padding-left: 8px;
   display: inline-block;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .nav1 a {
@@ -306,7 +306,7 @@ div > .content-footer {
 }
 
 .content-end-button:hover {
-  background-color: #1069ad
+  background-color: #1069ad;
 }
 
 .comments-end-icons {
