@@ -55,6 +55,11 @@ nav button {
 
 a {
   text-decoration: none;
+  color: #326891;
+}
+
+a:visited {
+  color: #326891;
 }
 
 strong a {
@@ -290,6 +295,7 @@ div > .content-footer {
   font-size: small;
   color: grey;
   text-align: right;
+  clear: both;
 }
 
 .content-end-button {
@@ -297,6 +303,10 @@ div > .content-footer {
   margin-right: 150px;
   margin-top: 20px;
   vertical-align: bottom;
+}
+
+.content-end-button:hover {
+  background-color: #1069ad
 }
 
 .comments-end-icons {
