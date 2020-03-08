@@ -20,7 +20,7 @@ There are many elements on the New York Times page which are produced with Javas
   * W3C Validator
 
 ## Live demo
-https://rawcdn.githack.com/teekaytech/NYT-Clone/3d46c3999e1611b07dec07fabb2edf87821cdf0e/index.html
+https://teekaytech.github.io/NYT-Clone/
 
 ## Getting started
 **For this project, we tried our best to recreate the New York Times web page. The main aim is to ensure the elements get placed and styled roughly the same way as the New York Times page, so functionality is not a priority.**
